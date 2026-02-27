@@ -24,8 +24,8 @@ else:
     print("Not zero")
 
 #4. Check if person can enter club (age + ID check). If yes, print ‘Eligible’.
-age = eval(input("Enter age :"))
-id = input("Enter id")
+age = eval(input("Enter age: "))
+id = input("Enter id: ")
 if(age >=18 and id =='valid'):
     print("You are eligible to enter")
 else:
@@ -42,12 +42,12 @@ else:
 n1 = eval(input("Enter a number : "))
 n2 = eval(input("Enter another number :"))
 add =  n1+n2
-sub =  n1+n2
-print("Addition is "+ add )
-print("Subtraction is "+ sub)
+sub =  n1-n2
+print("Addition is ",add)
+print("Subtraction is ", sub)
 
 #7.Check if username and password are correct if yes, print ‘Login Successful’.
-usr = Omveer
+usr = 'Omveer'
 pwd = 1234
 user = input("Enter username :")
 passw = eval(input("enter password :"))
@@ -55,6 +55,28 @@ if (user == usr and passw == pwd):
     print("Login Successful")
 else:
     print("Not Successful")
+
+#8.Check if temperature is hot or cold.
+temp = eval(input("Enter temperature :"))
+if (temp >= 25):
+    print("Hot")
+else:
+    print("Cold")
+
+#9.Check if number is palindrome (basic version) or not. If yes, print ‘Palindrome’ if no, print ‘Not Palindrome’.
+no1 = input('Enter a number :')
+if (no1[0::-1] == no1):
+    print("Palindrome number")
+else:
+    print("Not a palindrome number")
+
+
+#10.Check if number is greater than 100.
+n1 = eval(input("Enter number :"))
+if(n1 >100):
+    print("Greater than 100")
+else:
+    print("Smaller than 100")
 
 
 
