@@ -37,17 +37,25 @@
 
 # print(v)
 
-inp = [(2+3j),12,'Program','Python',False]
-d = {}
-cd =''
-for i in inp:
-    if(type(i) == str):
-        for j in i:
-            if j in 'aeiouAEIOU':
-                cd += j
-                d[i] = cd
-                # d[i].append(cd)
-        cd=''
-print(d)
+# inp = [(2+3j),12,'Program','Python',False]
+# d = {}
+# cd =''
+# for i in inp:
+#     if(type(i) == str):
+#         for j in i:
+#             if j in 'aeiouAEIOU':
+#                 cd += j
+#                 d[i] = cd
+#                 # d[i].append(cd)
+#         cd=''
+# print(d)
 
+
+#PASS STATEMENT
+for i in range(1,11):
+    
+    if i == 11:
+        pass
+    else:
+        print(i)
 
