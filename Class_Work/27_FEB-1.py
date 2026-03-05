@@ -9,4 +9,10 @@
 # ans ='_'
 # for j in t1:
 #     if(i == ' '):
-#         ans +=
+#  
+#        ans +=
+
+
+d1 = {'a' : 'Omveer','b' : 'Kartik'}
+r = d1['a'][-1:-4:-1]
+print(r)
